@@ -1,0 +1,39 @@
+{
+  "name": "mp4-combiner",
+  "version": "0.0.1",
+  "description": "Simple Node package to combine Mp4 files at the highest possible resolution, and framerate. Relies on some heavy weight packages, and some linux shell scripting to build a video file.",
+  "main": "mp4-combiner.js",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.17",
+    "bluebird": "^3.5.1",
+    "ffprobe": "^1.1.0",
+    "ffprobe-static": "^3.0.0",
+    "nock": "^10.0.6",
+    "request": "^2.81.0",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.25",
+    "ffprobe": "^1.1.0",
+    "mocha": "^3.3.0",
+    "should": "^11.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Javin-Ambridge/mp4-combiner"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Javin Ambridge",
+  "license": "ISC",
+  "keywords": [
+    "promise",
+    "mp4",
+    "combiner",
+    "video",
+    "video processing",
+    "make video",
+    "combine clips"
+  ]
+}
